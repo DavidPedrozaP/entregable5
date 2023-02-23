@@ -1,0 +1,85 @@
+.home-block{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.home-block{
+  background-color: rgb(99, 42, 42);
+  color: red;
+}
+.home-section{
+  background-color: azure;
+  padding: 12px;
+  border-radius: 6px;
+  margin: 8px;
+}
+
+.container-home-img{
+  background-color: rgb(224, 117, 117);
+  margin: 0;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.home-img{
+  max-height: 80%;
+  max-width: 450px;
+}
+.home-info{
+  text-align: center;
+}
+.home-info h2{
+  padding: 20px 0  20px 0;
+  color: rgb(5, 202, 15);
+}
+.home-info p{
+  color: rgb(218, 71, 13);
+}
+
+.home-start{
+  display: flex;
+  justify-content: center;
+}
+
+.home-start input{
+  display: block;
+  width: 40%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0;
+  padding: 15px 30px 15px 30px;
+  margin: 0;
+  line-height: 1;
+  background-color: transparent;
+  transition: 0.15s ease margin-top;
+  cursor: auto;
+  background-color: rgb(185, 204, 204);
+  border-radius: 25px;
+
+}
+
+.home-start input:focus{
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 8px rgb(78, 78, 78);
+  /* position: absolute; */
+}
+
+.home-start button{
+  /* display: flex; */
+  /* justify-content: center; */
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin-left: 2px;
+  font-size: 25px;
+  padding: 12px;
+  color: white;
+  margin-right: 10px;
+  background: linear-gradient(#53eb0d, #55b805);
+  top: 0;
+  right: 0;
+  }
